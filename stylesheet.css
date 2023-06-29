@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+h1{
+    color:#E53170;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+}
+.container{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    height: 100px;
+}
+
+.first-row{
+    float: left;
+    width: calc(100% / 3);
+    border-color: black;
+}
+img{
+width: 30px;
+height: 30px;
+}
+.card{
+    width: 200px;
+    height: 31px;
+}
