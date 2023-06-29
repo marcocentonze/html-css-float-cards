@@ -26,15 +26,21 @@ header{
 }
 
 .first-row{
-    float: left;
-    width: calc(100% / 3);
-    border-color: black;
+    text-align:justify;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 img{
-width: 30px;
-height: 30px;
+width: 100px;
+height: 100px;
 }
 .card{
     width: 200px;
-    height: 31px;
+    height: 100px;
+    float: left;
+    width: calc(100% / 3);
+    border-color: black;
 }
